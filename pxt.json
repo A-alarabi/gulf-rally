@@ -1,0 +1,40 @@
+{
+    "name": "Gulf Rally",
+    "description": "رالي الخليج - Gulf Rally",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#8A1538",
+        "#EBC88A",
+        "#D9A55C",
+        "#B47E3E",
+        "#6B4A2B",
+        "#9FD8F0",
+        "#4F9DD4",
+        "#F2E8CF",
+        "#9C9488",
+        "#5E5850",
+        "#5E8C31",
+        "#FFD24A",
+        "#E0402F",
+        "#1A1410"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
