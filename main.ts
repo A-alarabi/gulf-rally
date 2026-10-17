@@ -1216,12 +1216,7 @@ game.onUpdate(function () {
 })
 lastTime = game.runtime()
 game.splash("GULF RALLY", "Beat the red Patrol!")
-game.showLongText("A = GAS
-B = BRAKE
-LEFT/RIGHT = STEER
-UP = NITRO
-
-Grab fuel, dodge camels, land jumps straight!", DialogLayout.Center)
+game.showLongText("A = GAS\nB = BRAKE\nLEFT/RIGHT = STEER\nUP = NITRO\nWatch for camels!", DialogLayout.Center)
 say("3", 900)
 music.play(music.tonePlayable(262, music.beat(BeatFraction.Quarter)), music.PlaybackMode.InBackground)
 pause(1000)
